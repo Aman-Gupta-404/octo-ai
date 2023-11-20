@@ -5,8 +5,9 @@ A full stack AI SAAS Platform built on Next JS 13. This Saas application uses th
 ## Screenshots
 
 <!-- ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here) -->
+![screenshot](https://github.com/Aman-Gupta-404/octo-ai/assets/63041409/57188e57-78b6-4711-9dc5-581e460570e1)
 
-![plot](./screenshot.png)
+![Screenshot 2023-09-02 001659](https://github.com/Aman-Gupta-404/octo-ai/assets/63041409/b3041178-d628-4262-b878-c6ef69d89422)
 
 ## Tech Stack
 
