@@ -11,6 +11,9 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 
 export async function POST(req: Request) {
+  // const body1 = await req.json();
+  // const { messages1 } = body1;
+  // console.log("request is: ", messages1);
   try {
     const { userId } = auth();
     const body = await req.json();
@@ -35,11 +38,12 @@ export async function POST(req: Request) {
         status: 403,
       });
     }
-
     const response = await openai.createChatCompletion({
       model: "gpt-3.5-turbo",
       messages,
     });
+
+    console.log("response: ", response);
 
     if (!isPro) {
       await increaseApiLimitCount();

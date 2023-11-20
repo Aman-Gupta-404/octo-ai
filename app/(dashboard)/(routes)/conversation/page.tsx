@@ -57,6 +57,7 @@ function Conversation() {
       if (error?.response?.status === 403) {
         proModal.onOpen();
       } else {
+        console.log(error);
         toast.error("something went wrong!");
       }
     } finally {
